@@ -1,5 +1,5 @@
 .header {
-    height: 350px;
+    height: 344px;
     background-color: $header;
 
     @media (max-width:767px) {
@@ -94,5 +94,15 @@
         &:hover {          
             background-color: #00796B;
         }
+    }
+}
+
+.carousel {
+    margin-top:-180px;
+
+    @media (max-width:767px) {
+        &{
+            margin-top:0px;
+        }           
     }
 }
