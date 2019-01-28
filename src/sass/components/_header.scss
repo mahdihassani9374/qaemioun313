@@ -1,15 +1,53 @@
 .header {
-    height: 400px;
+    height: 350px;
     background-color: $header;
+
+    @media (max-width:767px) {
+        &{
+            height: auto;
+        }           
+    }
 
     .headder__top {
         padding: 15px 0;
         display: flex;
         align-items: center;
+        justify-content: space-between;
+
+        @media (max-width:767px) {
+            &{
+                flex-direction: column;
+            }           
+        }
         
         .header__top__img {
             height: 80px;
         }
+
+        .header__top__link {
+            text-decoration: none;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+
+        .header__top__link__img {
+            max-width: 43px;
+            transition: all 0.3s;
+
+            &:hover {
+                transform : scale(1.1)
+            }
+        }
+    }
+
+    .navbar-inverse .navbar-toggle {
+         border-color: #fff !important; 
+         background-color: transparent !important; 
+         margin-right: 10px;
+    }
+
+    .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+        border-color: transparent;
     }
 
     .navbar-inverse {
