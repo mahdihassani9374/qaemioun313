@@ -7,3 +7,15 @@ body {
     height: 26px;
     background-repeat: repeat-x;
 }
+
+@media (max-width:767px) {    
+    .col-xs-12 {
+        width: 50% !important;
+    }
+}
+
+@media (max-width:500px) {    
+    .col-xs-12 {
+        width: 100% !important;
+    }
+}
