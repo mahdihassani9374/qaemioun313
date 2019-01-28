@@ -32,4 +32,12 @@
             transition:all 0.3s;
         }
     }
+
+    .box__desc {
+        border-top: 1px dotted #ccc;
+        padding: 10px;
+        color: #555;
+        font-size: 12px;
+        font-weight: 600;
+    }
 }
