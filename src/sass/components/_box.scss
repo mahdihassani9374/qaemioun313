@@ -39,5 +39,20 @@
         color: #555;
         font-size: 12px;
         font-weight: 600;
+        line-height: 30px;
+        text-align: right;
+    }
+
+    .box__iocn {
+        width: 100px;
+        height: 100px;
+        background-color: #eee;
+        border-radius: 50%;
+        color: #00796B;
+        font-size: 60px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
     }
 }
