@@ -11,6 +11,16 @@ body {
 @media (max-width:767px) {    
     .col-xs-12 {
         width: 50% !important;
+    }    
+}
+
+@media (min-width:768px) {
+    .p-r-sm-0 {
+        padding-right: 0;
+    }
+
+    .p-l-sm-0 {
+        padding-left: 0px;
     }
 }
 
@@ -19,3 +29,5 @@ body {
         width: 100% !important;
     }
 }
+
+
