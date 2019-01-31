@@ -8,23 +8,13 @@ body {
     background-repeat: repeat-x;
 }
 
-@media (max-width:767px) {    
+@media (max-width:767px) {
     .col-xs-12 {
         width: 50% !important;
-    }    
-}
-
-@media (min-width:768px) {
-    .p-r-sm-0 {
-        padding-right: 0;
-    }
-
-    .p-l-sm-0 {
-        padding-left: 0px;
     }
 }
 
-@media (max-width:500px) {    
+@media (max-width:500px) {
     .col-xs-12 {
         width: 100% !important;
     }
@@ -54,4 +44,30 @@ body {
     border-color: #009688 !important;
 }
 
+.title {
+    background-color: #009688;
+    margin-bottom: 10px;
+    padding: 10px 10px 15px;
+    color: #fff;
+    font-family: MehdiHeydari !important;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 10px;
+    
 
+    @media (min-width:768px) {
+        & {
+            margin-left: -15px;
+        }
+    }
+}
+
+@media (min-width:768px) {
+    .p-r-sm-0 {
+        padding-right: 0;
+    }
+
+    .p-l-sm-0 {
+        padding-left: 0px;
+    }
+}
