@@ -35,4 +35,23 @@ body {
     padding-top: 10px;
 }
 
+.flex {
+    display: flex;
+}
+
+.flex-center {
+    align-items: center;
+}
+
+.flex-sapce-between {
+    justify-content: space-between;
+}
+
+.btn-default {
+    font-size: 12px;
+    border-radius: 20px;
+    font-weight: 600;
+    border-color: #009688 !important;
+}
+
 

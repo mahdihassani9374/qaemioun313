@@ -5,3 +5,11 @@ $color-theme :#009688;
 .color-white  {
     color: #fff;
 }
+
+.color-black {
+    color: #555;
+}
+
+.color-theme {
+    color: $color-theme;
+}
