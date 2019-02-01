@@ -81,3 +81,32 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+.section {
+
+    padding: 20px 0;
+ 
+    .section__title {
+        font-size: 20px;
+        font-family: MehdiHeydari !important;
+        font-weight: 600;
+        line-height: 30px;
+        margin-bottom: 15px;
+    } 
+    
+    .section__desc {
+        font-size: 12px;
+        color: #555;
+        font-weight: 600;
+    }
+}
+
+hr {
+    border-top: 1px solid #999;
+    margin: 20px -15px;
+}
+
+audio {
+    width: 100%;
+    margin-top: 10px;
+}
