@@ -38,9 +38,12 @@
     <script src="./js/isotope.pkgd.min.js"></script>
 
     <link href="./lib/pe-icon-7-stroke/css/helper.css" rel="stylesheet" />
-    <link href="./lib/pe-icon-7-stroke/css/pe-icon-7-stroke.css" rel="stylesheet" />  
+    <link href="./lib/pe-icon-7-stroke/css/pe-icon-7-stroke.css" rel="stylesheet" />
 
-    
+    <!-- fancy box -->
+    <link rel="stylesheet" href="./lib/fancybox/dist/jquery.fancybox.min.css">
+    <script src="./lib/fancybox/dist/jquery.fancybox.min.js"></script>
+
 </head>
 
 <body dir="rtl">
@@ -51,8 +54,7 @@
                 <div class="headder__top">
                     <img src="./img/logo.png" class="img-responsive header__top__img wow zoomIn" alt="هیئت قائمیون" />
                     <div class="text-center">
-                        <p class="color-white fa-MehdiHeydari wow bounceInUp">هیئت قائمیون را در شبکه های مجازی دنبال
-                            کنید </p>
+                        <p class="color-white fa-MehdiHeydari wow bounceInUp">هیئت قائمیون را در شبکه های مجازی دنبال کنید </p>
                         <div>
                             <a class="header__top__link">
                                 <img class="header__top__link__img wow bounceInDown" src="./img/soroosh.png" />
@@ -78,14 +80,32 @@
                         </div>
                         <div class="collapse navbar-collapse" id="myNavbar">
                             <ul class="nav navbar-nav">
-                                <li class="active"><a href="/"><span class="pe-7s-home"></span> صفحه اصلی</a></li>
-                                <li><a href="#"> <span class="pe-7s-call"></span> تماس با ما</a></li>
-                                <li><a href="#"> <span class="pe-7s-user"></span> درباره ما</a></li>
-                                <li><a href="#"> <span class="pe-7s-speaker"></span> مراسمات</a></li>
+                                <li class="active">
+                                    <a href="/">
+                                        <span class="pe-7s-home"></span> صفحه اصلی</a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span class="pe-7s-call"></span> تماس با ما</a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span class="pe-7s-user"></span> درباره ما</a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span class="pe-7s-speaker"></span> مراسمات</a>
+                                </li>
                             </ul>
                             <ul class="nav navbar-nav navbar-right">
-                                <li><a href="#"><span class="pe-7s-cash"></span> مساعدت مالی </a></li>
-                                <li><a href="#"><span class="pe-7s-back"></span> ورود</a></li>
+                                <li>
+                                    <a href="#">
+                                        <span class="pe-7s-cash"></span> مساعدت مالی </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span class="pe-7s-back"></span> ورود</a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -147,12 +167,9 @@
                         </div>
                         <div class="box__title">مراسم بعدی هئیت قائمیون</div>
                         <div class="box__desc">
-                            تاریخ برگزاری مراسم :
-                            1397/8/09
-                            <br />
-                            سخنران : حجت الاسلام والمسلمین حاج آقای خانکی
-                            <br />
-                            مکان : تهران یافت ایاد خیابان نیک ملکی کوچه سحر حسینیه سیدالشهدا
+                            تاریخ برگزاری مراسم : 1397/8/09
+                            <br /> سخنران : حجت الاسلام والمسلمین حاج آقای خانکی
+                            <br /> مکان : تهران یافت ایاد خیابان نیک ملکی کوچه سحر حسینیه سیدالشهدا
                         </div>
                     </div>
                     <div class="box text-center">
@@ -161,16 +178,36 @@
                         </div>
                         <div class="box__title"> دسته بندی مراسمات هئیت قائمیون</div>
                         <ul class="box-list">
-                            <li class="box-list__item"><a class="box-list__item__link" href="#">ماه رمضان سال 1397</a></li>
-                            <li class="box-list__item"><a class="box-list__item__link" href="#">ماه رمضان سال 1397</a></li>
-                            <li class="box-list__item"><a class="box-list__item__link" href="#">ماه رمضان سال 1397</a></li>
-                            <li class="box-list__item"><a class="box-list__item__link" href="#">ماه رمضان سال 1397</a></li>
-                            <li class="box-list__item"><a class="box-list__item__link" href="#">ماه رمضان سال 1397</a></li>
-                            <li class="box-list__item"><a class="box-list__item__link" href="#">ماه رمضان سال 1397</a></li>
-                            <li class="box-list__item"><a class="box-list__item__link" href="#">ماه رمضان سال 1397</a></li>
-                            <li class="box-list__item"><a class="box-list__item__link" href="#">ماه رمضان سال 1397</a></li>
-                            <li class="box-list__item"><a class="box-list__item__link" href="#">ماه رمضان سال 1397</a></li>
-                            <li class="box-list__item"><a class="box-list__item__link" href="#">ماه رمضان سال 1397</a></li>
+                            <li class="box-list__item">
+                                <a class="box-list__item__link" href="#">ماه رمضان سال 1397</a>
+                            </li>
+                            <li class="box-list__item">
+                                <a class="box-list__item__link" href="#">ماه رمضان سال 1397</a>
+                            </li>
+                            <li class="box-list__item">
+                                <a class="box-list__item__link" href="#">ماه رمضان سال 1397</a>
+                            </li>
+                            <li class="box-list__item">
+                                <a class="box-list__item__link" href="#">ماه رمضان سال 1397</a>
+                            </li>
+                            <li class="box-list__item">
+                                <a class="box-list__item__link" href="#">ماه رمضان سال 1397</a>
+                            </li>
+                            <li class="box-list__item">
+                                <a class="box-list__item__link" href="#">ماه رمضان سال 1397</a>
+                            </li>
+                            <li class="box-list__item">
+                                <a class="box-list__item__link" href="#">ماه رمضان سال 1397</a>
+                            </li>
+                            <li class="box-list__item">
+                                <a class="box-list__item__link" href="#">ماه رمضان سال 1397</a>
+                            </li>
+                            <li class="box-list__item">
+                                <a class="box-list__item__link" href="#">ماه رمضان سال 1397</a>
+                            </li>
+                            <li class="box-list__item">
+                                <a class="box-list__item__link" href="#">ماه رمضان سال 1397</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -185,14 +222,17 @@
                                     </div>
                                     <h1 class="box__title">مراسم عزاداری حضرت زهرا علیه السلام</h1>
                                     <div class="box__desc">
-                                        تاریخ برگزاری مراسم :
-                                        1397/8/09
+                                        تاریخ برگزاری مراسم : 1397/8/09
                                     </div>
                                     <div class="flex flex-center color-black padding-right-10 padding-left-10 flex-sapce-between">
-                                        <div class="size-12 weight-600 flex flex-center"><span class="pe-7s-speaker color-theme size-18 weight-600"></span><span
-                                                class="margin-right-6">تعداد صوت ها : ۱۲ </span></div>
-                                        <div class="size-12 weight-600 flex flex-center"><span class="pe-7s-photo color-theme size-18 weight-600"></span><span
-                                                class="margin-right-6">تعداد عکس ها : ۲۳ </span></div>
+                                        <div class="size-12 weight-600 flex flex-center">
+                                            <span class="pe-7s-speaker color-theme size-18 weight-600"></span>
+                                            <span class="margin-right-6">تعداد صوت ها : ۱۲ </span>
+                                        </div>
+                                        <div class="size-12 weight-600 flex flex-center">
+                                            <span class="pe-7s-photo color-theme size-18 weight-600"></span>
+                                            <span class="margin-right-6">تعداد عکس ها : ۲۳ </span>
+                                        </div>
                                     </div>
                                     <div class="text-center padding-10">
                                         <a href="./detail.html" class="btn btn-default">مشاهده </a>
@@ -206,18 +246,20 @@
                                     <div class="box__img">
                                         <img src="./img/img2.jpg" />
                                     </div>
-                                    <h1 class="box__title">مراسم عزاداری حضرت زهرا علیه السلام
-                                        مراسم عزاداری حضرت زهرا علیه السلام
+                                    <h1 class="box__title">مراسم عزاداری حضرت زهرا علیه السلام مراسم عزاداری حضرت زهرا علیه السلام
                                     </h1>
                                     <div class="box__desc">
-                                        تاریخ برگزاری مراسم :
-                                        1397/8/09
+                                        تاریخ برگزاری مراسم : 1397/8/09
                                     </div>
                                     <div class="flex flex-center color-black padding-right-10 padding-left-10 flex-sapce-between">
-                                        <div class="size-12 weight-600 flex flex-center"><span class="pe-7s-speaker color-theme size-18 weight-600"></span><span
-                                                class="margin-right-6">تعداد صوت ها : ۱۲ </span></div>
-                                        <div class="size-12 weight-600 flex flex-center"><span class="pe-7s-photo color-theme size-18 weight-600"></span><span
-                                                class="margin-right-6">تعداد عکس ها : ۲۳ </span></div>
+                                        <div class="size-12 weight-600 flex flex-center">
+                                            <span class="pe-7s-speaker color-theme size-18 weight-600"></span>
+                                            <span class="margin-right-6">تعداد صوت ها : ۱۲ </span>
+                                        </div>
+                                        <div class="size-12 weight-600 flex flex-center">
+                                            <span class="pe-7s-photo color-theme size-18 weight-600"></span>
+                                            <span class="margin-right-6">تعداد عکس ها : ۲۳ </span>
+                                        </div>
                                     </div>
                                     <div class="text-center padding-10">
                                         <a href="./detail.html" class="btn btn-default">مشاهده </a>
@@ -233,14 +275,17 @@
                                     </div>
                                     <h1 class="box__title">مراسم عزاداری حضرت زهرا علیه السلام</h1>
                                     <div class="box__desc">
-                                        تاریخ برگزاری مراسم :
-                                        1397/8/09
+                                        تاریخ برگزاری مراسم : 1397/8/09
                                     </div>
                                     <div class="flex flex-center color-black padding-right-10 padding-left-10 flex-sapce-between">
-                                        <div class="size-12 weight-600 flex flex-center"><span class="pe-7s-speaker color-theme size-18 weight-600"></span><span
-                                                class="margin-right-6">تعداد صوت ها : ۱۲ </span></div>
-                                        <div class="size-12 weight-600 flex flex-center"><span class="pe-7s-photo color-theme size-18 weight-600"></span><span
-                                                class="margin-right-6">تعداد عکس ها : ۲۳ </span></div>
+                                        <div class="size-12 weight-600 flex flex-center">
+                                            <span class="pe-7s-speaker color-theme size-18 weight-600"></span>
+                                            <span class="margin-right-6">تعداد صوت ها : ۱۲ </span>
+                                        </div>
+                                        <div class="size-12 weight-600 flex flex-center">
+                                            <span class="pe-7s-photo color-theme size-18 weight-600"></span>
+                                            <span class="margin-right-6">تعداد عکس ها : ۲۳ </span>
+                                        </div>
                                     </div>
                                     <div class="text-center padding-10">
                                         <a href="./detail.html" class="btn btn-default">مشاهده </a>
@@ -256,14 +301,17 @@
                                     </div>
                                     <h1 class="box__title">مراسم عزاداری حضرت زهرا علیه السلام</h1>
                                     <div class="box__desc">
-                                        تاریخ برگزاری مراسم :
-                                        1397/8/09
+                                        تاریخ برگزاری مراسم : 1397/8/09
                                     </div>
                                     <div class="flex flex-center color-black padding-right-10 padding-left-10 flex-sapce-between">
-                                        <div class="size-12 weight-600 flex flex-center"><span class="pe-7s-speaker color-theme size-18 weight-600"></span><span
-                                                class="margin-right-6">تعداد صوت ها : ۱۲ </span></div>
-                                        <div class="size-12 weight-600 flex flex-center"><span class="pe-7s-photo color-theme size-18 weight-600"></span><span
-                                                class="margin-right-6">تعداد عکس ها : ۲۳ </span></div>
+                                        <div class="size-12 weight-600 flex flex-center">
+                                            <span class="pe-7s-speaker color-theme size-18 weight-600"></span>
+                                            <span class="margin-right-6">تعداد صوت ها : ۱۲ </span>
+                                        </div>
+                                        <div class="size-12 weight-600 flex flex-center">
+                                            <span class="pe-7s-photo color-theme size-18 weight-600"></span>
+                                            <span class="margin-right-6">تعداد عکس ها : ۲۳ </span>
+                                        </div>
                                     </div>
                                     <div class="text-center padding-10">
                                         <a href="./detail.html" class="btn btn-default">مشاهده </a>
@@ -277,18 +325,20 @@
                                     <div class="box__img">
                                         <img src="./img/img2.jpg" />
                                     </div>
-                                    <h1 class="box__title">مراسم عزاداری حضرت زهرا علیه السلام
-                                        مراسم عزاداری حضرت زهرا علیه السلام
+                                    <h1 class="box__title">مراسم عزاداری حضرت زهرا علیه السلام مراسم عزاداری حضرت زهرا علیه السلام
                                     </h1>
                                     <div class="box__desc">
-                                        تاریخ برگزاری مراسم :
-                                        1397/8/09
+                                        تاریخ برگزاری مراسم : 1397/8/09
                                     </div>
                                     <div class="flex flex-center color-black padding-right-10 padding-left-10 flex-sapce-between">
-                                        <div class="size-12 weight-600 flex flex-center"><span class="pe-7s-speaker color-theme size-18 weight-600"></span><span
-                                                class="margin-right-6">تعداد صوت ها : ۱۲ </span></div>
-                                        <div class="size-12 weight-600 flex flex-center"><span class="pe-7s-photo color-theme size-18 weight-600"></span><span
-                                                class="margin-right-6">تعداد عکس ها : ۲۳ </span></div>
+                                        <div class="size-12 weight-600 flex flex-center">
+                                            <span class="pe-7s-speaker color-theme size-18 weight-600"></span>
+                                            <span class="margin-right-6">تعداد صوت ها : ۱۲ </span>
+                                        </div>
+                                        <div class="size-12 weight-600 flex flex-center">
+                                            <span class="pe-7s-photo color-theme size-18 weight-600"></span>
+                                            <span class="margin-right-6">تعداد عکس ها : ۲۳ </span>
+                                        </div>
                                     </div>
                                     <div class="text-center padding-10">
                                         <a href="./detail.html" class="btn btn-default">مشاهده </a>
@@ -304,14 +354,17 @@
                                     </div>
                                     <h1 class="box__title">مراسم عزاداری حضرت زهرا علیه السلام</h1>
                                     <div class="box__desc">
-                                        تاریخ برگزاری مراسم :
-                                        1397/8/09
+                                        تاریخ برگزاری مراسم : 1397/8/09
                                     </div>
                                     <div class="flex flex-center color-black padding-right-10 padding-left-10 flex-sapce-between">
-                                        <div class="size-12 weight-600 flex flex-center"><span class="pe-7s-speaker color-theme size-18 weight-600"></span><span
-                                                class="margin-right-6">تعداد صوت ها : ۱۲ </span></div>
-                                        <div class="size-12 weight-600 flex flex-center"><span class="pe-7s-photo color-theme size-18 weight-600"></span><span
-                                                class="margin-right-6">تعداد عکس ها : ۲۳ </span></div>
+                                        <div class="size-12 weight-600 flex flex-center">
+                                            <span class="pe-7s-speaker color-theme size-18 weight-600"></span>
+                                            <span class="margin-right-6">تعداد صوت ها : ۱۲ </span>
+                                        </div>
+                                        <div class="size-12 weight-600 flex flex-center">
+                                            <span class="pe-7s-photo color-theme size-18 weight-600"></span>
+                                            <span class="margin-right-6">تعداد عکس ها : ۲۳ </span>
+                                        </div>
                                     </div>
                                     <div class="text-center padding-10">
                                         <a href="./detail.html" class="btn btn-default">مشاهده </a>
@@ -327,14 +380,17 @@
                                     </div>
                                     <h1 class="box__title">مراسم عزاداری حضرت زهرا علیه السلام</h1>
                                     <div class="box__desc">
-                                        تاریخ برگزاری مراسم :
-                                        1397/8/09
+                                        تاریخ برگزاری مراسم : 1397/8/09
                                     </div>
                                     <div class="flex flex-center color-black padding-right-10 padding-left-10 flex-sapce-between">
-                                        <div class="size-12 weight-600 flex flex-center"><span class="pe-7s-speaker color-theme size-18 weight-600"></span><span
-                                                class="margin-right-6">تعداد صوت ها : ۱۲ </span></div>
-                                        <div class="size-12 weight-600 flex flex-center"><span class="pe-7s-photo color-theme size-18 weight-600"></span><span
-                                                class="margin-right-6">تعداد عکس ها : ۲۳ </span></div>
+                                        <div class="size-12 weight-600 flex flex-center">
+                                            <span class="pe-7s-speaker color-theme size-18 weight-600"></span>
+                                            <span class="margin-right-6">تعداد صوت ها : ۱۲ </span>
+                                        </div>
+                                        <div class="size-12 weight-600 flex flex-center">
+                                            <span class="pe-7s-photo color-theme size-18 weight-600"></span>
+                                            <span class="margin-right-6">تعداد عکس ها : ۲۳ </span>
+                                        </div>
                                     </div>
                                     <div class="text-center padding-10">
                                         <a href="./detail.html" class="btn btn-default">مشاهده </a>
@@ -348,18 +404,20 @@
                                     <div class="box__img">
                                         <img src="./img/img2.jpg" />
                                     </div>
-                                    <h1 class="box__title">مراسم عزاداری حضرت زهرا علیه السلام
-                                        مراسم عزاداری حضرت زهرا علیه السلام
+                                    <h1 class="box__title">مراسم عزاداری حضرت زهرا علیه السلام مراسم عزاداری حضرت زهرا علیه السلام
                                     </h1>
                                     <div class="box__desc">
-                                        تاریخ برگزاری مراسم :
-                                        1397/8/09
+                                        تاریخ برگزاری مراسم : 1397/8/09
                                     </div>
                                     <div class="flex flex-center color-black padding-right-10 padding-left-10 flex-sapce-between">
-                                        <div class="size-12 weight-600 flex flex-center"><span class="pe-7s-speaker color-theme size-18 weight-600"></span><span
-                                                class="margin-right-6">تعداد صوت ها : ۱۲ </span></div>
-                                        <div class="size-12 weight-600 flex flex-center"><span class="pe-7s-photo color-theme size-18 weight-600"></span><span
-                                                class="margin-right-6">تعداد عکس ها : ۲۳ </span></div>
+                                        <div class="size-12 weight-600 flex flex-center">
+                                            <span class="pe-7s-speaker color-theme size-18 weight-600"></span>
+                                            <span class="margin-right-6">تعداد صوت ها : ۱۲ </span>
+                                        </div>
+                                        <div class="size-12 weight-600 flex flex-center">
+                                            <span class="pe-7s-photo color-theme size-18 weight-600"></span>
+                                            <span class="margin-right-6">تعداد عکس ها : ۲۳ </span>
+                                        </div>
                                     </div>
                                     <div class="text-center padding-10">
                                         <a href="./detail.html" class="btn btn-default">مشاهده </a>
@@ -375,14 +433,17 @@
                                     </div>
                                     <h1 class="box__title">مراسم عزاداری حضرت زهرا علیه السلام</h1>
                                     <div class="box__desc">
-                                        تاریخ برگزاری مراسم :
-                                        1397/8/09
+                                        تاریخ برگزاری مراسم : 1397/8/09
                                     </div>
                                     <div class="flex flex-center color-black padding-right-10 padding-left-10 flex-sapce-between">
-                                        <div class="size-12 weight-600 flex flex-center"><span class="pe-7s-speaker color-theme size-18 weight-600"></span><span
-                                                class="margin-right-6">تعداد صوت ها : ۱۲ </span></div>
-                                        <div class="size-12 weight-600 flex flex-center"><span class="pe-7s-photo color-theme size-18 weight-600"></span><span
-                                                class="margin-right-6">تعداد عکس ها : ۲۳ </span></div>
+                                        <div class="size-12 weight-600 flex flex-center">
+                                            <span class="pe-7s-speaker color-theme size-18 weight-600"></span>
+                                            <span class="margin-right-6">تعداد صوت ها : ۱۲ </span>
+                                        </div>
+                                        <div class="size-12 weight-600 flex flex-center">
+                                            <span class="pe-7s-photo color-theme size-18 weight-600"></span>
+                                            <span class="margin-right-6">تعداد عکس ها : ۲۳ </span>
+                                        </div>
                                     </div>
                                     <div class="text-center padding-10">
                                         <a href="./detail.html" class="btn btn-default">مشاهده </a>
@@ -421,15 +482,14 @@
                     <img class="footer__logo wow zoomIn" src="./img/logo.png" alt="هیئت قائمیون" />
                     <h1 class="footer__desc wow zoomIn weight-600">محفل قائمیون</h1>
                     <div class="footer__desc wow zoomIn">شبهای جمعه بعد از نماز مغرب و عشا </div>
-                    <div class="footer__desc wow zoomIn">تهران یافت اباد بلوار معلم خیابان نیک ملکی کوچه سحر حسینیه
-                        سیدالشهدا
+                    <div class="footer__desc wow zoomIn">تهران یافت اباد بلوار معلم خیابان نیک ملکی کوچه سحر حسینیه سیدالشهدا
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="footer__title wow bounceInDown">هیئت قائمیون</div>
                     <div>
                         <a href="/" class="footer__link wow zoomIn">صفحه اصلی</a>
-                        <a  class="footer__link wow zoomIn">تماس با ما</a>
+                        <a class="footer__link wow zoomIn">تماس با ما</a>
                         <a href="#" class="footer__link wow zoomIn">درباره ما</a>
                         <a href="#" class="footer__link wow zoomIn">مساعدت مالی</a>
                     </div>
